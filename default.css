@@ -1,9 +1,10 @@
+/* Color palette */
 :root {
-	--light-shade: #f5f6f7;
-	--light-accent:	#bcb6a0;
-	--main-brand: #97ae9b;
-	--dark-accent: #8b9497;
-	--dark-shade: #474e4e;
+	--light-shade: #A89984;
+	--light-accent:	#689D6A;
+	--main-color: #458588;
+	--dark-accent: #CC241D;
+	--dark-shade: #282828;
 }
 /* Override the default style */
 * {
@@ -12,14 +13,11 @@
 	box-sizing: border-box;
 }
 
-.split-screen {
+.banner {
 	color: #fff;
-	background-color: var(--main-brand);
+	background-color: var(--dark-shade);
 	display: flex;
 	justify-content: space-between;
-}
-
-.header-item {
 }
 
 .personal-image {
@@ -45,10 +43,11 @@ img {
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
+	color: var(--main-color);
 }
 
 .links {
-	color: var(--light-shade);
+	color: var(--light-accent);
 	display: flex;
 	justify-content: space-around;
 }
