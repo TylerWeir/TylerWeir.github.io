@@ -41,7 +41,7 @@ img {
 	
 .title {
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	color: var(--main-color);
 }
@@ -50,4 +50,26 @@ img {
 	color: var(--light-accent);
 	display: flex;
 	justify-content: space-around;
+}
+
+.about {
+	background-color: var(--light-accent);
+	display: flex;
+	color: #fff;
+}
+
+.margin {
+	display: flex;
+	flex: 1;
+}
+
+.about-me {
+	text-align: center;
+	display: flex;
+	flex: 3;
+}
+
+.about-me p {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
