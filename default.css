@@ -41,7 +41,7 @@ img {
 	
 .title {
 	text-align: center;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: bold;
 	color: var(--main-color);
 }
@@ -56,6 +56,16 @@ img {
 	background-color: var(--light-accent);
 	display: flex;
 	color: #fff;
+}
+
+.link-grid-item .img-container {
+	width: 120px;
+}
+
+.link-grid .first-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .margin {
@@ -78,6 +88,7 @@ img {
 	background-color: var(--light-shade);
  	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .link-grid {
@@ -91,9 +102,25 @@ img {
 
 .link-grid-item {
 	margin: 10px;
-	background-color: var(--dark-accent);
+	background-color: var(--main-color);
 	color: white;
+	text-align: center;
 	width: 300px;
 	height: 300px;
 	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+.link-grid-item:hover{
+	background-color: #83a598;
+}
+
+a:link, 
+a:visited {
+	text-decoration: none;
+}
+
+
