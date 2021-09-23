@@ -1,1 +1,21 @@
+/* Color palette */
+:root {
+	--light-shade: #A89984;
+	--light-accent:	#689D6A;
+	--main-color: #458588;
+	--dark-accent: #CC241D;
+	--dark-shade: #282828;
+}
+
 /* stylesheet for the resume page */
+* {
+	background-color: var(--light-shade);
+	color: var(--dark-shade);
+}
+
+h1,
+h2 {
+	color: var(--main-color);
+}
+
+
