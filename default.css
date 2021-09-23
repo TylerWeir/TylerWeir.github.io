@@ -19,9 +19,12 @@ p {
 	font-size: 10px;
 }
 
-.about-me p {
+.about-me {
 	padding-left:10px;
 	padding-right:10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .banner {
@@ -93,8 +96,8 @@ img {
 }
 
 .about-me p {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .link-grid-container {
