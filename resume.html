@@ -2,12 +2,19 @@
 <html lang='en'>
 	<head>
 		<meta charset='UTF-8'/>
-		<title>Resume</title>
+		<title>Tyler Weir | Resume</title>
 		<link rel='stylesheet' href='resume.css'/>
 	</head>
 	<body>
-		<h1>Resume</h1>
-		<p>Here is the contents of my resume</p>
+		<div class='header'>
+			<div class='title'>
+				<h1>Resume</h1>
+			</div>
+			<div class='contact'>
+				<h3>Tyler Weir</h3>
+				<h3>tylerw@live.com</h3>
+			</div>
+		</div>
 
 		<h2>Education</h2>
 		<h3><u>Undergrad</u></h3>
@@ -29,56 +36,68 @@
 		<h2>Coursework</h2>
 		<h3>CS Courses</h3>
 		<ul>
-			<li>CS161 Intro to Computer Science</li>
-			<li>CS261 Computer Science Two</li>
-			<li>CS240 Software Engineering</li>
-			<li>CS281 Computer Architecture</li>
-			<li>CS410 Operating Systems</li>
-			<li>      Programming Paradigms</li>
-			<li>CS361 Algorithms and Data Structures</li>
+			<li>CSCI161 Intro to Computer Science</li>
+			<li>CSCI261 Computer Science II</li>
+			<li>CSCI240 Software Engineering</li>
+			<li>CSCI281 Assembly Language and Computer Architecture</li>
+			<li>CSCI291 Progamming Language Paradigms</li>
+			<li>CSCI315 Computer Graphics</li>
+			<li>CSCI361 Algorithms and Data Structures</li>
+			<li>CSCI475 Operating Systems</li>
 		</ul>
 
 		<h3>Physics Courses</h3>
 		<ul>
 			<li>PHYS122 General University Physics</li>
+			<li>PHYS201 Survey of Physics</li>
 			<li>PHYS221 Modern Physics</li>
-			<li>PHYS222 Modern Physics</li>
-			<li>PHYS200 Circuits and Electronics</li>
+			<li>PHYS222 Modern Physics II</li>
+			<li>PHYS231 Circuits and Electronics</li>
 			<li>PHYS305 Analytical Mechanics</li>
-			<li>PHYS3xx Electro</li>
-			<li>PHYS3xx Electro</li>
-			<li>PHYS4xx Laser</li>
+			<li>PHYS351 Electromagnetic Theory</li>
+			<li>PHYS352 Electromagnetic Theory</li>
+			<li>PHYS411 Quantum Mechanics I</li>
+			<li>PHYS493 Topics in Theoretical Physics: Laser Science</li>
 		</ul>
 
 		<h3>Math Course</h3>
 		<ul>
+			<li>MATH160 Intro to Applied Statistics</li>
 			<li>MATH280 Multivariable Calculus</li>
 			<li>MATH290 Linear Algebra</li>
 			<li>MATH300 Differential Equations</li>
-			<li> STATS </li>
 		</ul>
 
 		<h2>Technical Projects</h2>
 		<h3>Halo 5 Daily Kill Counter</h3>
-		<p>Using a Raspberry Pi computer, I wrote a Python program to download data from the Halo 5 public 		   API and display the total kills performed by a given player on the current day.  The display is 
-		made of three 4" seven segment displays. This program taught me alot about programming in the linux 		   environment.  I learned to use tools such as ssh and vim which I still use today.</p>
+		<p>Using a Raspberry Pi computer, I wrote a Python program to download data from the Halo 5 public
+		API and display the total kills performed by a given player on the current day.  The display is 
+		made of three 4" seven segment displays. This program taught me many valuable skills for programming 
+		in the linux environment.  I learned to use tools such as ssh and vim which I still use today.</p>
+	 
 
 		<h3>Carry Look Ahead Adder Circuit</h3>
-		<p>For my final project in Computer Architecture, I used breadboards to create a 4 bit carry look 		   ahead adder.  This circuit is very similar to the addition hardware in modern computers.  It is 
-		much faster than the popular ripple carry adder; however, it requires more complex circuitry.</p>
+		<p>For my final project in Computer Architecture, I used breadboards to create a 4 bit carry look 
+		ahead adder.  This circuit is very similar to the addition hardware found in modern computers. 
+		It is much faster than the popular ripple carry adder; however, it requires more complex
+		circuitry.</p>
 
 		<h3>Flocking Algorithm Program</h3>
-		<p>I made adaption of Craig Reynolds classic agent based flocking algorithm in Python.  The 
-		"boids" or bird objects are represented by small blue triangles that fly around the screen.  They
-		perform seemingly complex movement which is driven by three simple behaviors.</p>
+		<p>I read Craig Reynolds' paper <em>Flocks, Herds, and Schools: A Distributed Behavioral
+		Model</em> which introduced a now classic agent based flocking algorithm. I used this
+		algorithm to make a program allowing the user to create small "birds" with the click of the 
+		mouse and then watch them flock together. The "boids" or bird objects are represented by small
+		blue triangles that fly around the screen.  They perform seemingly complex movement
+		which is driven by a couple basic behaviors.</p>
 
 		<h3>Verlet Integration Physics Engine</h3>
-		<p>Following Jakobsen's Paper, I am in the process of creating a physics engine for rigid bodies 
-		defined by sticks and points.  Rather than using Euler's method of integration, the program uses
+		<p>Following Thomas Jakobsen's Paper <em>Advanced Character Physics</em>, I am in the process of 
+		creating a physics engine for rigid bodies defined by sticks and points.
+		Rather than using Euler's method of integration, the program uses
 		Verlet integration: a process by which the velocity of an object is calculated from it's 
-		previous positions.  This process is much more stable than Euler's integration routine, thus 
-		making it a better match for systems of many interacting rigid bodies.  Currently, I am working on
-		the challenge of collision detection between rigid bodies in a system.</p>
+		previous positions.  This process is much more stable than Euler's integration routine when working with 
+		large quantities of interacting bodies. Currently, I am working on
+		the challenge of collision detection between rigid bodies.</p>
 
 		<h2>Affiliations</h2>
 		<h3>Physics Club</h3>

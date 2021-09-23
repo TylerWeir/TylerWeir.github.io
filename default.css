@@ -19,6 +19,11 @@ p {
 	font-size: 10px;
 }
 
+.about-me p {
+	padding-left:10px;
+	padding-right:10px;
+}
+
 .banner {
 	color: #fff;
 	background-color: var(--dark-shade);
