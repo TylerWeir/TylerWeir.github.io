@@ -13,10 +13,9 @@
 	box-sizing: border-box;
 }
 
-/* This looks really bad but is required by spec... */
 p {
 	font: helvetica, times, sans-serif;
-	font-size: 10px;
+	font-size: 18px;
 }
 
 .about-me {
